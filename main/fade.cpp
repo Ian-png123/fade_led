@@ -2,6 +2,7 @@
 
 int Led = 9;
 void setup() {
+  TTCCR1A = COM1A1;
   pinMode(Led, OUTPUT);
   // put your setup code here, to run once:
 
